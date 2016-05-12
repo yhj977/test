@@ -12,7 +12,7 @@
 
 
 
-void add_cmdname(struct cmdnames *cmds, const char *name, int len)
+void aaa  add_cmdname(struct cmdnames *cmds, const char *name, int len)
 {
 	struct cmdname *ent;
 	FLEX_ALLOC_MEM(ent, name, name, len);
